@@ -27,7 +27,6 @@ body {
   justify-content: center;
   width: 100vw;
   height: 75vh;
-  /* margin-left: -5rem; */
   overflow-y: scroll;
 }
 
