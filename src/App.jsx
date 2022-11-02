@@ -10,10 +10,9 @@ function App() {
         <img className='logomarca' src={logoImage} alt="logomarca" />
       </div>
 
-      <div className='form-center'>
-        <div className='form-container'>
-          <Form />
-        </div>
+
+      <div className='form-container'>
+        <Form />
       </div>
     </>
   );

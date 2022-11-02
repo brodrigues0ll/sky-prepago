@@ -41,10 +41,10 @@ form .form-control:focus {
 
 section {
   margin-top: -1.5rem;
-  width: 235px;
+  width: 300px;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
   overflow-y: scroll;
   border-radius: 10px;
 }
@@ -52,6 +52,10 @@ section {
 section p:hover {
   background-color: rgb(56, 56, 56);
   padding: 5px 2px;
+}
+
+section::-webkit-scrollbar {
+  display: none;
 }
 
 
