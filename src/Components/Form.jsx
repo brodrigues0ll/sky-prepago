@@ -70,7 +70,7 @@ const Form = () => {
       />
 
 
-      <label htmlFor="">{`Estado Civil`}</label>
+      <label htmlFor="">{`Estado Civil:`}</label>
 
       <button
         type='button'
