@@ -11,9 +11,8 @@ form label {
 
 form .form-control {
   border: none;
-  width: 235px;
-  height: 35px;
-  font-size: 12px;
+  width: 300px;
+  font-size: 16px;
   background-color: rgba(16, 16, 16, 0.5);
   color: white;
   margin-bottom: 29px;

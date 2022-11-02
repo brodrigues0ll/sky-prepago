@@ -2,6 +2,7 @@ body {
   background-color: #333744;
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
 }
 
 .logo-container {
@@ -26,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 75vh;
+  height: 70vh;
   overflow-y: scroll;
 }
 
