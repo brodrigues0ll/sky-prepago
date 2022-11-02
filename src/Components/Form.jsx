@@ -50,6 +50,7 @@ const Form = () => {
         mask="999.999.999-99"
         placeholder='123.456.789-10'
         className='form-control'
+        type="number"
         onChange={(e) => setCpf(e.target.value.replace(/[^0-9]/g, ''))}
       />
 
@@ -58,6 +59,7 @@ const Form = () => {
         mask="99.999.999-9"
         placeholder='12.345.678-9'
         className='form-control'
+        type="number"
         onChange={(e) => setRg(e.target.value.replace(/[^0-9]/g, ''))}
       />
 
@@ -66,6 +68,7 @@ const Form = () => {
         mask="(99) 99999-9999"
         placeholder='(12) 9 1234-5678'
         className='form-control'
+        type="number"
         onChange={(e) => setCel(e.target.value.replace(/[^0-9]/g, ''))}
       />
 
@@ -108,6 +111,7 @@ const Form = () => {
         mask="99999-999"
         placeholder='12345-678'
         className='form-control'
+        type="number"
         onChange={cepAutoComplete}
       />
 
