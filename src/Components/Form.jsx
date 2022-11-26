@@ -32,15 +32,24 @@ const Form = () => {
     setCep(e.target.value.replace(/[^0-9]/g, ''));
   }
 
+
+
   useEffect(() => {
-    fetch(`https://viacep.com.br/ws/${cep}/json/`)
-      .then((res) => res.json())
-      .then((data) => {
-        setUf(data.uf);
-        setCidade(data.localidade);
-        setBairro(data.bairro);
-        setEndereco(data.logradouro);
-      });
+    if (cep.length < 8) {
+      return;
+    }
+    else {
+      fetch(`https://viacep.com.br/ws/${cep}/json/`)
+        .then((res) => res.json())
+        .then((data) => {
+          setUf(data.uf);
+          setCidade(data.localidade);
+          setBairro(data.bairro);
+          setEndereco(data.logradouro);
+        });
+    }
+
+
   }, [cep]);
 
   return (
