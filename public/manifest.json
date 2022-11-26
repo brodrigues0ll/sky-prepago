@@ -1,0 +1,10 @@
+{
+  "name": "Sky Pre Pago",
+  "short_name": "Sky",
+  "theme_color": "#333744",
+  "background_color": "#333744",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
